@@ -5,16 +5,16 @@ y luego dentro de las llaves se ejecutan las tareas
 =============*/
 
 //Ejemplo ciclo For interactuando con el DOM
-//Revisar porque no se me muestra
+//Revisar porque no se me muestra = Resuelto lin 15
 var cajas = document.querySelectorAll(".cajas");
-console.log("cajas", cajas);
+console.log("cajas: ", cajas);
 
 for(var i = 0; i < cajas.length; i++){
 
-    cajas[i].style.width = "50px";
-    cajas[i].style.heigth = "50px";
-    cajas[i].style.background = "blue";
-    cajas[i].style.marginTop = "5px";
+    cajas[i].style.width="50px";
+    cajas[i].style.height ="50px";  //mi error estaba en la sintaxis de height
+    cajas[i].style.background="blue";
+    cajas[i].style.marginTop="5px"
 }
 
 for(var i = 1; i <= 5; i++){
