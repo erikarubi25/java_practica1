@@ -15,6 +15,8 @@ for(var i = 0; i < cajas.length; i++){
     cajas[i].style.height ="50px";  //mi error estaba en la sintaxis de height
     cajas[i].style.background="blue";
     cajas[i].style.marginTop="5px"
+    cajas[i].style.marginRight="5px";
+    cajas[i].style.display="inline-block"
 }
 
 for(var i = 1; i <= 5; i++){
